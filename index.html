@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color gradient</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- <link rel="stylesheet" href="./../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./../../node_modules/bootstrap/dist/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCACuAUIDASIAAhEBAxEB/8QAGwABAAEFAQAAAAAAAAAAAAAAAAUBAgMEBgf/xAA9EAACAgEDAQUFBQUGBwAAAAAAAQIDBAURITEGEkFRYRMicYGRIzKhscEUJHJzkgczQkNishVSU2OD0eH/xAAcAQEAAgMBAQEAAAAAAAAAAAAABQYBBAcCAwj/xAAxEQACAgECAwYGAQQDAAAAAAAAAQIDBAUREiExBhMUQVGRIjJhcdHhsQcjocEVM1L/2gAMAwEAAhEDEQA/APWwAAAAAAAAAAAAAAAAAAAAAAAAAAACgBUFCoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAFQRGoa7pmnuUJTd163+xo2bi/Kc/ur8/Q5TP7Va1f3o47hiVvfZUpTt29bJr8kiOyNRx6Hwt7v0RL4ej5WZzhHZer5HoMpRgnKTUYrq5NJL5s0rNV0ar+91LBh6SyaU/wDceSZd+XkycsjIvuk31usnZ9O8yOsSW/C+iNL/AJji+WP+S1Y/Y5TX9y72X5Z7RHW+z83tDVdPk/JZVO/4yNyrIxr/AO5vps/lWQn/ALWzwRGSDlBqUG4yXKcW4v6o26s1z6xNmzsRBL4Lvdfs99B45hdpu0eC17POttrX+Xlfbwa8l7T3l8pI6/TO3WFe4VanQ8Wb2XtqnKyhvzcfvr8SSg+Jbormb2YzsVcUVxr6dfbr7bnaAxVXU311202V2VWJOE65KUZLzTXBlMlZaaezAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCpbKUYxlKTSjFOTb4SS8WYbS5sFLLIVwlZOUYwgu9KUuEl6nKaprd+R36cRyqo+7KxcW2Lx58F+P5GTUs2zLl3ItrHg/dj/zNf4pfoRE4LyKFqmvO2Tpx3tH19f0WjTdPhBqy5bv09COsgalsSSsgaVsOpC1TLtRMjbV1NG1dSStj1I+5dSYoluT2PLc1UXosReiw4i3JFlyL0URei041Z8ZElpOs6lo9vfxLPs5NO2izd02fGPg/VHp2j65g6zS50PuX1pe3x7H79bfivOPk0eQo2cPKy8HIqysW113VPeMl0afWMl4p+KJSWCrY8upVtZ0KnPi7IfDZ6+v3PaipE6JrNGsYiuilC+vaGTTvu65tdV/pfh/8JYhJwlXJxkuaOTXUzosdVi2aAAPB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAROpXt/u8Hxw7WvF9VH/2Sdku5CU/JcfHwIacJScm+W2236spXarVfDVLFg+c+v2/Zu4cE58b8iNlX6GtZX6EpOs151nOYWllquIiys0rYbbkzZU+TRuqfPBJ02kzj3EHfDqRmQupOX1vkh8mO25YMWe5aMOzdojkZEixdTLFFy0+HFsTMmXJF6RRIyJF4w8fdGtJhIuSKpFUix0458Wze0jUb9KzacuvvOH3L610spbXejt5+K9UetUX05FVN9M1Oq6EbK5RfDjJbpnjHQ7nsTqXtK8nTLJbyoXt8ff8A6UntOK+D5+ZGa3p67rxEOq6/b9FG7U4Csr8XD5o9fqv0doACmnOwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUZhg082zb2cE+vvP8AJGp3kM2zfImt+IqMV9NzXUzinaG55GoWPyT29j3DIUORncYsxyq38CisL1YQGzXQ3a8tepqWU7p8GhdR14ZN71y6mOdEZJ7cmzXe49SWozUvM5TJp68EBmw273B3GThy2fBy+p40oqb28/Asun5KlJIuOl5kZSS3OZS5+ZngjFBe8/izahE7FoOHK2KkkW+yWwSL0hvGPUtdi8DpWNg8C5mhZfGPVl/CLXMxOwscyVjVsaFmWvIyufqSGh57wNW0zI39z20arv5V32ct/hvv8iIcy1zez2fOz29H4C3HVtcq5dGtiNyLVdXKuXRrY965Ko1dOv8A2rA0/J33eRi0Wt+soJs2zjsouMnF9UcqlFxbT8gADyYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRgHP5c/3rJ/mMwd8rnPu5mWv+439Uma3fOH58H4q3f/0/5ZX7cnhm19WbPfK+09TUc/Uo7PU0+6Pl4/bzN1WouV+3iRzt2Mcr9vEz4fc8vWO78yX/AGit8S2a9TRzsPEy6rFGyMJNP77SX1I+eU10MW9l0veb7rfTfgkcHTbrbUqeTPmu208F8VfNo4+6FeJkZVN04Kyq2cXGMk3w90+PB+BillwXETf7TafG253wXdsUYrvR4b7qS5ORc76ZNT+qP2F2f0qijDrjD5tlv9/M6Lp/9Qp6nTGU4qL89ibeRv4ljuIuN+/iZFcWDw+xKrWe857m/wC03Kd/1NNWFymO62Paz+I2u+U75r98d4xwGfF7nuPZebn2e0KT6rDhD+huP6E0Q3ZiDh2e0CL8cCif9a7/AOpMnEcvbxFm3q/5Kha97JP6gAGsfMAAAAAAAAAAAAAAAcDgAAcDgAAcDgAAcDgAAcDgAAcAFGAc1rMfZ5jl4W1wn8Wt4v8AIjXMn9eocserIiuaZ7T/AIJ8fnt9TmHM5XrmL3ObPlylz9/2UbVpOjIkvXmZnMxuwxOZjlMiY1ldtzGvMyytMLm30LOWXqJIY+K5sirsqUvMRju+TZriY4xNiCOiaFgRhJPYirZtkTqlan3jjs3FXve75ncZq3cjncurffg7bplzgkizaRkOtJHIWUyrfu/QsjY1wyYyKevBG2089C21Wqa5l/xc17dSis9TIrDUfej1Loz9T6uCJyrMfqbamXLv2ONcE3OyUa4JdXKb7qS+pqqZ03YnT3qfaLTYuO9OE3qN/klQ04J/GTiaGbbHGondLpFNm8srke24dEcXFw8ZdMbHpoW3T7OChx9DY4KbFTgzbk235mq+fMcDgAwBwOAABwOAABwOAABwOAABwAAAAAAAAAAAAAAAAAAUaKgAx3VRvqtpmt4WQcJfBnA5NdmNddRZ9+ubi/VeDXxPQiB1/TXk1ftdMd76V76XWypc8eqK/rmB4qrvIfNH+Ct9oMGWTR3tfzR/yjk3JlEgudi9IplOPuzlU5N9QkZEiiRekWXDxuhryZdFGaJjSMqL7ptXDsas2aWSt9yEyYLknL/Eir477l5xJbExhT4SCvr6kdbV1Ju6HU0LYdSyUWluxriFsqRrSg0+CVsr6mrOsl67SdpuNJNrqe1f2daJLTdJln5EHHL1ZwuSktpV4kU/ZR+e7k/4l5HBdjuzEte1JWXwf/C8CcJ5kmn3brF70caL9es/JeTkj3KMVHZJbJLZJLZJeSRQe12rRaWDU/rL/S/37E7jptcTLgAc6NsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCpQA5fWNHcJWZeLDeDbldVFcxfVyivzIJLc9FaIPUdCrucrsRxrtbbnW+K5vzXkyFyNNi5d5Uvuiha32cc28jDXPzj+PwcykXouspuom67oShNeEltv8PAojYxaduRzmyMoScZLZovReuhai7wZbsOG2xrSNW4jbl1JO3xI+1dSzUPYksZ7EZbE0LYdSUtiaVqS6+L2Xm35JdSapmWPHmyMsgbmi9ns/X8xUY29ePXJftmW1vXRHr3Y78Ob/AMK+b4Ok0fsZqGoyhfn+0w8LdPutbZV0fKMX91erW/p4no+FhYen49WJh01049S2hCtbLnq5Pq2/FvlkTqXaKOPF1Yz3n6+S/LLlp+FOe07OSLNM03B0nCx8HCqVdFEdorrKUnzKc5eMn1bNwA53OcpycpvdssiSS2QAB5MgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoVABhux8fIj3Lq4Tj5SXT4MiL+z9TbeNdKHj3LV34/J9SdBlPZ7kdmaZi5q/vwT+vn7nJ2aTqVW/2KmvOqSf4PZmB4uZFPvY96/8AHL9DswbtWbKvy3Kxd2MxZveuyUfZnBzxcuW6jjZDfpVP9UYlo+sXvaGFat/Gxwgl/XJP8D0EG4tXsivhij3T2Qorfx2N+y/JxNHZDMt5y8mqmPjGmLtnt/FLaP4M6DT9B0bTnGdGOp3x/wA+9+0t3/0t8L5JEsDUv1HJvXDKXL0XJFixdLxcX/rjz9XzKbFQDQJMAAAAAAAAAAAAAAAAAAAAAAAAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbjcAAbgA/9k="> 
+    <script type="text/javascript">
+        function PutText(){
+            result = prompt("Enter Name","saurav arya");
+            if (result == null){
+                alert("please Enter a Name");
+            }else if (result == ""){
+                alert("please provide a name");
+
+            }else{
+                document.querySelector("h1").innerHTML = "" + result;
+            }
+
+        }
+        
+
+    </script>
+</head>
+<body class="container-fluid bg-dark text-center">
+    <div class="center">
+        
+        <h1></h1>
+        &nbsp; &nbsp; &nbsp;
+         <button onclick="PutText()" class="btn btn-warning" > Enter Your Name</button>
+    </div>
+    
+
+    <!-- ><script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./../../node_modules/jquery/dist/jquery.min.js"></script> -->
+</body>
+</html>

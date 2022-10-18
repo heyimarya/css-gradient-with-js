@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.center h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: transparent;
+    background: linear-gradient(to right , #f00, #ff0, #0ff, #0f0, #00f ,#fff);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    animation: ani 5s linear infinite;
+
+}
+.center button{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    background: linear-gradient(to right , #25fff2 , #26ff00, red , white);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    animation: animation 5s linear infinite;
+
+}
+
+@keyframes ani{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+@keyframes animation{
+    0%{
+        background-position: 20% 100%;
+    }
+    50%{
+        background-position: 100% 10%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+}
